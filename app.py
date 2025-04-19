@@ -27,7 +27,7 @@ Campo_usuario.pack(pady=10)
 # Definindo o título de entrada da senha
 label_Senha = ctk.CTkLabel(app,text="Senha:")
 label_Senha.pack(pady=10)
-# Definindo o campo de entrada da senha
+# Definindo o campo de entrada da senha.
 Campo_Senha = ctk.CTkEntry(app,placeholder_text="Digite sua senha",show="*")
 Campo_Senha.pack(pady=10)
 
